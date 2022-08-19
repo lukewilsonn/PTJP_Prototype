@@ -30,7 +30,7 @@ const AccountPage = () => {
         <Column className="lg:mt-[58px] xl:mt-[66px] 2xl:mt-[74px] 3xl:mt-[89px] w-[39%]">
           <Row className="justify-between w-[100%]">
             <Text className="font-inter font-normal lg:mt-[4px] 2xl:mt-[5px] xl:mt-[5px] 3xl:mt-[6px] lg:text-[23px] xl:text-[27px] 2xl:text-[30px] 3xl:text-[36px] text-black_900 w-[auto]">
-              My Accout
+              My Account
             </Text>
             <Button
               className="common-pointer font-poppins font-semibold lg:text-[11px] xl:text-[13px] 2xl:text-[15px] 3xl:text-[18px] text-center tracking-ls1 w-[24%]"
