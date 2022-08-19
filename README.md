@@ -15,17 +15,7 @@ We have detected common components and have generated possible variants of it. T
 
       npm run storybook
 
-<div>
-  <h1 align="center">Getting Started with React Figma Web 🚀 </h1>
-  <strong>
-    Generated with ❤️ from Dhiwise
-  </strong>
-  <p>
-    This is the documentation of React Figma Web.
-    It holds all the info you need to get started with
-    and make changes to your App
-  </p>
-</div>
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
