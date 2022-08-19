@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className="dhiwise-navigation">
-      <h1>Homepage</h1>
+      <h1>PTJP Navigation Homepage</h1>
       <p className="headline">
         Quickly use below links to navigate through all pages.
       </p>
