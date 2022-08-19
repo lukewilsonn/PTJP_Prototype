@@ -7,22 +7,34 @@ const EditAccountMenuPage = () => {
   const navigate = useNavigate();
 
   function handleNavigate1() {
-    navigate("/editaccount");
+    //TODO: You had integrated navigation action, since you've not selected the target page,
+    // you will have to update navigation code manually.
+    navigate("");
   }
   function handleNavigate2() {
-    navigate("/login");
+    //TODO: You had integrated navigation action, since you've not selected the target page,
+    // you will have to update navigation code manually.
+    navigate("");
   }
   function handleNavigate3() {
-    navigate("/savedsearchlistpage");
+    //TODO: You had integrated navigation action, since you've not selected the target page,
+    // you will have to update navigation code manually.
+    navigate("");
   }
   function handleNavigate4() {
-    navigate("/account");
+    //TODO: You had integrated navigation action, since you've not selected the target page,
+    // you will have to update navigation code manually.
+    navigate("");
   }
   function handleNavigate5() {
-    navigate("/blanksearchpage");
+    //TODO: You had integrated navigation action, since you've not selected the target page,
+    // you will have to update navigation code manually.
+    navigate("");
   }
   function handleNavigate6() {
-    navigate("/homepage");
+    //TODO: You had integrated navigation action, since you've not selected the target page,
+    // you will have to update navigation code manually.
+    navigate("");
   }
 
   return (
@@ -52,20 +64,20 @@ const EditAccountMenuPage = () => {
             <Input
               className="font-medium p-[0] lg:text-[11px] xl:text-[13px] 2xl:text-[15px] 3xl:text-[18px] placeholder:text-black_900 text-black_900 tracking-ls1 w-[100%]"
               wrapClassName="w-[48%]"
-              name="Group125"
+              name="Group850"
               placeholder="Luke"
               shape="RoundedBorder10"
               size="sm"
-              variant="FillGray1001_2"
+              variant="FillGray100"
             ></Input>
             <Input
               className="font-medium p-[0] lg:text-[11px] xl:text-[13px] 2xl:text-[15px] 3xl:text-[18px] placeholder:text-black_900 text-black_900 tracking-ls1 w-[100%]"
               wrapClassName="w-[48%]"
-              name="Group121"
+              name="Group846"
               placeholder="Wilson"
               shape="RoundedBorder10"
               size="sm"
-              variant="FillGray1001_2"
+              variant="FillGray100"
             ></Input>
           </Row>
           <Text className="font-medium font-poppins lg:mt-[21px] xl:mt-[24px] 2xl:mt-[27px] 3xl:mt-[33px] lg:text-[14px] xl:text-[17px] 2xl:text-[19px] 3xl:text-[23px] text-bluegray_900 tracking-ls1 w-[auto]">
@@ -75,11 +87,11 @@ const EditAccountMenuPage = () => {
             className="font-medium font-poppins p-[0] lg:text-[11px] xl:text-[13px] 2xl:text-[15px] 3xl:text-[18px] placeholder:text-black_900 text-black_900 tracking-ls1 w-[100%]"
             wrapClassName="2xl:mt-[21px] 3xl:mt-[25px] lg:mt-[16px] w-[100%] xl:mt-[18px]"
             type="email"
-            name="Group124"
+            name="Group849"
             placeholder="wlsluk003@myuct.ac.za"
             shape="RoundedBorder10"
             size="md"
-            variant="FillGray1001_2"
+            variant="FillGray100"
           ></Input>
           <Text className="font-medium font-poppins lg:mt-[21px] xl:mt-[24px] 2xl:mt-[27px] 3xl:mt-[33px] lg:text-[14px] xl:text-[17px] 2xl:text-[19px] 3xl:text-[23px] text-bluegray_900 tracking-ls1 w-[auto]">
             New password
@@ -92,7 +104,7 @@ const EditAccountMenuPage = () => {
             placeholder="*************"
             shape="RoundedBorder10"
             size="sm"
-            variant="FillGray1001_2"
+            variant="FillGray100"
           ></Input>
           <Text className="font-medium font-poppins lg:mt-[19px] xl:mt-[22px] 2xl:mt-[24px] 3xl:mt-[29px] lg:text-[14px] xl:text-[17px] 2xl:text-[19px] 3xl:text-[23px] text-bluegray_900 tracking-ls1 w-[auto]">
             Re-enter Password
@@ -105,13 +117,13 @@ const EditAccountMenuPage = () => {
             placeholder="*************"
             shape="RoundedBorder10"
             size="sm"
-            variant="FillGray1001_2"
+            variant="FillGray100"
           ></Input>
           <Row className="font-poppins items-center justify-between lg:mt-[53px] xl:mt-[61px] 2xl:mt-[69px] 3xl:mt-[82px] w-[100%]">
             <Button
               className="font-semibold lg:text-[11px] xl:text-[13px] 2xl:text-[15px] 3xl:text-[18px] text-center tracking-ls1 w-[24%]"
               shape="RoundedBorder10"
-              size="lg"
+              size="md"
               variant="FillBlue900"
             >
               Back
@@ -119,14 +131,14 @@ const EditAccountMenuPage = () => {
             <Button
               className="font-semibold lg:text-[11px] xl:text-[13px] 2xl:text-[15px] 3xl:text-[18px] text-center tracking-ls1 w-[24%]"
               shape="RoundedBorder10"
-              size="lg"
+              size="md"
               variant="FillBlue900"
             >
               Save
             </Button>
           </Row>
         </Column>
-        <aside className="absolute bottom-[0] items-center justify-end left-[0] w-[27%]">
+        <aside className="absolute items-center left-[0] w-[27%]">
           <Column className="">
             <Column className="bg-white_A700 justify-center xl:p-[11px] 2xl:p-[12px] 3xl:p-[14px] lg:p-[9px] rounded-bl-[32px] rounded-br-[16px] rounded-tl-[16px] rounded-tr-[16px] w-[100%]">
               <Text
@@ -163,7 +175,7 @@ const EditAccountMenuPage = () => {
               >
                 Sign out
               </Text>
-              <Line className="bg-indigo_A700 h-[1px] lg:mb-[1097px] xl:mb-[1255px] 2xl:mb-[1412px] 3xl:mb-[1694px] 2xl:mt-[10px] 3xl:mt-[12px] lg:mt-[8px] xl:mt-[9px] w-[98%]" />
+              <Line className="bg-indigo_A700 h-[1px] lg:mb-[479px] xl:mb-[548px] 2xl:mb-[616px] 3xl:mb-[740px] 2xl:mt-[10px] 3xl:mt-[12px] lg:mt-[8px] xl:mt-[9px] w-[98%]" />
             </Column>
           </Column>
         </aside>

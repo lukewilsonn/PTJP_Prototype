@@ -10,7 +10,7 @@ const HomePagePage = () => {
     navigate("/resultspage");
   }
   function handleNavigate71() {
-    navigate("/resultspage");
+    navigate("/blanksearchpage");
   }
   function handleNavigate72() {
     navigate("/homepagemenu");

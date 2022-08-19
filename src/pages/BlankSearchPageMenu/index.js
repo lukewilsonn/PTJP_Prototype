@@ -7,7 +7,7 @@ const BlankSearchPageMenuPage = () => {
   const navigate = useNavigate();
 
   function handleNavigate27() {
-    navigate("/blanksearchpage");
+    navigate("/homepage");
   }
   function handleNavigate28() {
     navigate("/login");
@@ -29,7 +29,7 @@ const BlankSearchPageMenuPage = () => {
     <>
       <Stack
         className="common-pointer bg-white_A700 font-poppins lg:h-[1400px] xl:h-[1601px] 2xl:h-[1801px] 3xl:h-[2161px] mx-[auto] w-[100%]"
-        onClick={handleNavigate27}
+        //onClick={handleNavigate27}
       >
         <Column className="absolute top-[0] w-[100%]">
           <Row className="bg-blue_900 items-center lg:p-[35px] xl:p-[40px] 2xl:p-[46px] 3xl:p-[55px] w-[100%]">
